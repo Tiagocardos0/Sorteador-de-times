@@ -166,7 +166,7 @@ function showNotification(message) {
     notification.style.bottom = '190px';
     notification.style.left = '50%';
     notification.style.transform = 'translateX(-50%)';
-    notification.style.padding = '15px 30px';
+    notification.style.padding = '27px 30px';
     notification.style.backgroundColor = '#04022b';
     notification.style.color = '#fff';
     notification.style.fontWeight = 'bold';
