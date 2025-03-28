@@ -76,7 +76,7 @@ function storeColors() {
     colorInputs.forEach(input => {
         colorArray.push(input.value);
     });
-    
+
     localStorage.setItem('colors', JSON.stringify(colorArray));
     loadColors();
 }
@@ -281,7 +281,7 @@ if (reset) {
     })
 }
 
-if(btnReload) {
+if (btnReload) {
     btnReload.addEventListener('click', () => {
         location.reload()
     })
